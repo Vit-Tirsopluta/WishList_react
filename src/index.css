@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+.app-container {
+  padding: 30px;
+  background: #1e1e2e;
+  color: #cdd6f4;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.wish-form {
+  margin-bottom: 20px;
+}
+
+.wish-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  background: #313244;
+  color: #cdd6f4;
+  outline: none;
+}
+
+.wish-input:focus {
+  outline: 2px solid #89b4fa;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background: #d7ae17;
+  color: #1e1e2e;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.add-btn:hover {
+  opacity: 0.8;
+}
+
+.wish-list {
+  list-style: none;
+  padding: 0;
+}
+
+.wish-item {
+  width: 250px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.item-name {
+  flex-grow: 1;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+}
